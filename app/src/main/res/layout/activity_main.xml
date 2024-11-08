@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="horizontal"
+
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:id="@+id/game1"
+        android:layout_width="0dp"
+        android:src="@drawable/game1"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:layout_height="150dp"/>
+
+ <RelativeLayout
+     android:layout_width="0dp"
+     android:layout_height="150dp"
+     android:padding="10dp"
+     android:layout_weight="1"
+
+     >
+     <ImageButton
+         android:id="@+id/game2"
+         android:layout_width="match_parent"
+         android:src="@drawable/game2"
+         android:scaleType="fitXY"
+         android:background="@color/white"
+         android:layout_height="match_parent"/>
+
+     <ImageView
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="0dp"
+         android:src="@drawable/baseline_download_24"
+         android:layout_marginEnd="0dp"
+         />
+
+
+ </RelativeLayout>
+
+</LinearLayout>
